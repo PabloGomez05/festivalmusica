@@ -1,0 +1,24 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloGomez05/festivalmusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Pablo Hernan Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloGomez05/festivalmusica/issues"
+  },
+  "homepage": "https://github.com/PabloGomez05/festivalmusica#readme"
+}
