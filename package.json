@@ -2,9 +2,11 @@
   "name": "festivalmusica",
   "version": "1.0.0",
   "description": "Aprendiendo SASS y NPM",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/PabloGomez05/festivalmusica/issues"
   },
-  "homepage": "https://github.com/PabloGomez05/festivalmusica#readme"
+  "homepage": "https://github.com/PabloGomez05/festivalmusica#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.80.6"
+  }
 }
