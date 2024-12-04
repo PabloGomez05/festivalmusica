@@ -421,7 +421,7 @@ body > section {
 .video .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(270deg, rgba(117, 47, 151, 0.6), rgba(56.7272727273, 22.7878787879, 73.2121212121, 0.9));
+  background: linear-gradient(270deg, rgba(117, 47, 151, 0.6), rgba(26.5909090909, 10.6818181818, 34.3181818182, 0.9));
   display: flex;
   align-items: center;
 }
@@ -451,4 +451,35 @@ body > section {
   font-size: 2.4rem;
   font-weight: 700;
   margin: 0;
+}
+
+.sobre-festival {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .sobre-festival {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+}
+
+.contenido-festival {
+  margin-top: 5rem;
+}
+.contenido-festival h2 {
+  margin-bottom: 2rem;
+}
+.contenido-festival .fecha {
+  font-weight: 700;
+  color: #00aae4;
+}
+
+.imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }

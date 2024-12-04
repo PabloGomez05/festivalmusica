@@ -1,5 +1,6 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
+@use 'sass:color';
 
 .video {
 
@@ -7,6 +8,7 @@
     min-height: 50rem;
     max-height: 70rem;
     overflow: hidden;
+    
     .overlay{
 
         position:absolute;
@@ -14,14 +16,14 @@
         background: linear-gradient(
             270deg, //direccion del gradiente, 270 grados de inclinacion.
             rgba(v.$morado, 60%),
-            rgba( darken(v.$morado, 20%), 90%)
+            rgba(color.adjust(v.$morado,$lightness:-30%), 90%)
         );
         display: flex;
         align-items: center;
 
     }
 
-video{
+video { 
     display: block;
     width: auto;
     @include m.desktop {
